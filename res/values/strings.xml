@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NullChat</string>
+    <string name="send_button">Send</string>
+    <string name="settings_button">Settings</string>
+    <string name="connect_button">Connect</string>
+    <string name="disconnect_button">Disconnect</string>
+    <string name="clear_button">Clear</string>
+    <string name="radio_button">Radio: </string>
+    <string name="online_button">Online: </string>
+
+</resources>

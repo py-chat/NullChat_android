@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <string name="pr_css"> body { background-color:#EEEEEE; font-family: sans, Trebuchet MS; } a { color:#FF6600; } .reply {color:#FF6600;} </string>
+
+</resources>

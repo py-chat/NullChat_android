@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="server_settings"
+        android:title="Server" >
+
+        <CheckBoxPreference
+            android:name="use_token_page"
+            android:defaultValue="true"
+            android:key="pr_use_token_page"
+            android:summary="Use token page"
+            android:title="Get token" />
+
+        <EditTextPreference
+            android:name="token_page"
+            android:defaultValue="http://py-chat.tk"
+            android:key="pr_token_page"
+            android:inputType="text|textUri"
+            android:summary="URL:port"
+            android:title="Token page" />
+
+        <EditTextPreference
+            android:name="server_addr"
+            android:defaultValue="d.py-chat.tk"
+            android:key="pr_server_addr"
+            android:summary="Enter server address"
+            android:title="Server" />
+
+        <EditTextPreference
+            android:name="server_port"
+            android:defaultValue="1984"
+            android:inputType="number"
+            android:key="pr_server_port"
+            android:summary="Enter server port"
+            android:title="Port" />
+        <EditTextPreference
+            android:name="nick"
+            android:defaultValue="**&lt;Аноним&gt; ** "
+            android:inputType="text"
+            android:key="pr_nick"
+            android:summary="Оставьте это поле пустым"
+            android:title="Nick" />
+        <CheckBoxPreference
+            android:name="is_use_nick"
+            android:defaultValue="false"
+            android:key="pr_is_use_nick"
+            android:summary="Использовать ник"
+            android:title="Использовать ник" />        
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="chat_settings"
+        android:title="Interface" >
+        
+         <CheckBoxPreference
+            android:name="hide_send_button"
+            android:defaultValue="true"
+            android:key="pr_hide_send_button"
+            android:summary="Use search instead"
+            android:title="Hide send button" />        
+
+        <EditTextPreference
+            android:name="css"
+            android:defaultValue="@string/pr_css"
+            android:key="pr_css"
+            android:summary="Webview style"
+            android:title="CSS" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
